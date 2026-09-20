@@ -1,7 +1,7 @@
 public class Calculator {
 
     public int aduna(int a, int b) {
-        int bonus = 2; // temporar
+        int bonus = 5;
         return a + b + bonus;
     }
 
@@ -10,3 +10,4 @@ public class Calculator {
         System.out.println("Rezultat: " + calc.aduna(5, 10));
     }
 }
+`
