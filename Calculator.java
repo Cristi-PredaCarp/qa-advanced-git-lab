@@ -1,14 +1,9 @@
 public class Calculator {
 
-    private static final int BONUS = 2;
+    private static final int BONUS = 5;
 
     public int aduna(int a, int b) {
-
         return a + b + BONUS;
-
-        int bonus = 5;
-        return a + b + bonus;
-
     }
 
     public static void main(String[] args) {
@@ -16,4 +11,3 @@ public class Calculator {
         System.out.println("Rezultat: " + calc.aduna(5, 10));
     }
 }
-`
